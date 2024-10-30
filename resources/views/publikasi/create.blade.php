@@ -15,7 +15,7 @@
                 <!-- Step Indicator -->
 
 
-                <form id="editorForm" method="POST" action="/post" enctype="multipart/form-data">
+                <form id="editorForm" method="POST" action="/" enctype="multipart/form-data">
                     @csrf
                     <div class="mb-3">
                         <label for="title" class="form-label">Title</label>
