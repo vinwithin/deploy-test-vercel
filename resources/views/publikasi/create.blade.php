@@ -81,7 +81,7 @@
                 const file = input.files[0];
 
                 // Validasi ukuran file (opsional)
-                if (file.size > 5000000) { // 5MB
+                if (file.size > 3000000) { // 5MB
                     alert('Ukuran file terlalu besar! Maksimal 5MB');
                     return;
                 }
